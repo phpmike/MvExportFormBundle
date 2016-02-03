@@ -1,0 +1,27 @@
+{
+  "name": "mv/export-form-bundle",
+  "type": "bundle",
+  "description": "Bundle to export data like is it in forms",
+  "keywords": ["export", "form export", "bundle"],
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Michaël VEROUX",
+      "homepage": "https://github.com/phpmike"
+    }
+  ],
+  "require": {
+    "symfony/symfony": "~2.3"
+  },
+  "archive": {
+    "exclude": ["Tests/", "build/", "/.travis.yml", "/build.xml", "phpunit.xml.dist"]
+  },
+  "autoload": {
+    "psr-4": { "Mv\\ExportFormBundle\\": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}

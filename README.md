@@ -6,8 +6,16 @@ Embedded forms and labels translation are supported.
 INSTALLATION with COMPOSER
 --------------------------
 
-    php composer.phar require mv/export-form-bundle:"~1.0"
+```bash
+php composer.phar require mv/export-form-bundle:"~1.0"
+```
 
 ###1)  Add to your AppKernel.php
 
-    new Mv\ExportFormBundle\MvExportFormBundle(),
+```php
+new Mv\ExportFormBundle\MvExportFormBundle(),
+```
+
+###2)  Use it!
+
+[see documentation](Resources/doc/index.md)    
