@@ -1,6 +1,6 @@
 # MvExportFormBundle
-Symfony2 bundle to export data with form logic. 
-This approach is not the best for performance, but, sometime we need to keep the same logic.
+Symfony2 bundle to export data with form logic.  
+This approach is not the best for performance, but, sometime we need to keep the same logic.  
 Embedded forms and labels translation are supported.
 
 INSTALLATION with COMPOSER
@@ -18,4 +18,4 @@ new Mv\ExportFormBundle\MvExportFormBundle(),
 
 ###2)  Use it!
 
-[see documentation](Resources/doc/index.md)    
+[see documentation](Resources/doc/index.md)
