@@ -3,7 +3,7 @@
   "type": "bundle",
   "description": "Bundle to export data like is it in forms",
   "keywords": ["export", "form export", "bundle"],
-  "license": "GPL",
+  "license": "GPL-3.0",
   "authors": [
     {
       "name": "Michaël VEROUX",

@@ -179,12 +179,11 @@ abstract class AbstractExport
      * @param FormView[] $formViews
      * @param array      $values
      * @param array      $labels
-     * @param string     $currentKey
      *
      * @return void
      * @author Michaël VEROUX
      */
-    private function extractValues($formViews, &$values, &$labels, $currentKey)
+    private function extractValues($formViews, &$values, &$labels)
     {
         foreach ($formViews as $key => $view) {
             /** @var FormView $view */
@@ -217,9 +216,6 @@ abstract class AbstractExport
      */
     private function extractCollection($formViews)
     {
-        if (isset($formViews[0])) {
-            $formType = $this->getFormType($formViews[0]);
-        }
         $values = array();
         $subValues = array('collection' => array());
         $subLabels = $subValues;
